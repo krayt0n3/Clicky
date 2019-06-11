@@ -1,12 +1,22 @@
-import React from "react"
-import {Container, Row} from "react-bootstrap"
+import React from "react";
+import "../styles/Global.css";
 
-export default class MainContent extends React.Component {
-    render() {
-        return (
-<div><Container>
-    <Row>
-        </Row></Container></div>
-        )
-    }
+
+
+
+  
+
+function ImageCard(props) {
+  return (
+     
+    <div className="card">
+      <div className="img-container">
+        <img className="img" alt={props.name} src={props.image} />
+      </div>
+    </div>
+    
+   
+  );
 }
+
+export default ImageCard;
