@@ -3,7 +3,8 @@
 }
 
 .mr-auto {
-    text-align: center;
+    align-content: center;
+    color: white;
 }
 
 .img {
@@ -11,7 +12,7 @@
 }
 
 .container {
-    width: fit-content;
+    width: 960px;
 }
 
 .card {
@@ -21,7 +22,7 @@
     margin: 1rem;
     position: relative;
     width: fit-content;
-    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+    
     text-align: left;
   }
   
@@ -47,3 +48,53 @@
   .card > .content > ul > li {
     margin-top: 18px;
   }
+
+ .card:hover {
+  box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+ }
+
+ footer {
+   background-color: #6CADDC;
+ }
+
+ .navbar li {
+  display: inline-block;
+  padding: 26px 0;
+  width: 33.3%;
+  text-align: center;
+ }
+
+ .navbar {
+  background: #5133a4;
+  min-height: 70px;
+  position: fixed;
+  width: 100%;
+  -webkit-box-shadow: 0 14px 28px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.22);
+  box-shadow: 0 14px 28px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.22);
+  color: #fff;
+  font-size: calc(10px + 14 * (100vw - 320px)/ 800);
+  z-index: 99;
+  white-space: nowrap;
+  justify-content: center;
+ }
+
+ .navbar a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 900;
+}
+
+ul {
+  width: inherit;
+}
+
+.header {
+  background-color: #2c323c;
+  background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEhUSEhIVFRUVFxcXFxgVFxcXFxcXFR0XFxUXFxUYHSggGBolHRcXITEhJSkrLi4uFx8zODMtNygtLisBCgoKBQUFDgUFDisZExkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAJcBTQMBIgACEQEDEQH/xAAWAAEBAQAAAAAAAAAAAAAAAAAAAQf/xAAXEAEBAQEAAAAAAAAAAAAAAAAAARFB/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AMYBAFKAERdBBdARaAFRYAiwoCAASKAGAACaQFAACAEKkUANAEimAGosBIKAIsAQw1QEwKCggKiypoKVKAqSi0Aw0A0EBailBFRaBYCApQAEUARbQEKugkWmoCouAAlXQDQARYoJIioCgACKACaC6EqALqKAgAoi6BSCaCmGlBFRaAACKYAaCUBQAEXQEAFAAEUAJQCBKQAggKmqAGABhggKAAgtBFgAikAE1QAqKCLUxQRYkiggpAAMAwkAASKAUqAVSlASLSAFACASAiwKAkWkBCqYAigBCUwBMFAkBAVFQFNNAQUBFRQQUACAAQAClBFACIqAVRAUCgUDQEqgIpEAFAQVLQWBQAwMAggCiaAqFAUpqAuEAEWhgCKmgsBAFIgC4mqBBIsBFRQEIoFEAURQDEUCIqAvQASriAKABDEUASKAIAsEUAIAUwKAGgAJYCgAAAAACALgigFEBTUUAqKAABgi6AQMASki0ADAAqALgARFxAFMIBCgCKAAFAwMAQiwoBgkBUUBFIlAWmAFAwDSIoBABAWgVF6AAgLRKoIoAi4ACUpoKigBUUA0QBUqgBTABFBBUAXEUEUADAAABFAAggKAAVAFBAFgAJaLQAAElUAwoAQADAAAADABIoAQAEwoAqQAFAAoAQABABQAAAAATFAEUAKYAP/Z);
+  background-repeat: repeat;
+  color: #fff;
+  min-height: 400px;
+  padding: 180px 20px;
+  padding-bottom: 140px;
+  text-align: center;
+}
